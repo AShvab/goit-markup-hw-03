@@ -315,9 +315,9 @@ padding-bottom: 94px;
 }
 
 .filter-title:hover,
-.filter-text:hover, 
-.filter-title:focus
-.filter-text:focus {
+.filter-text:hover 
+/* .filter-title:focus
+.filter-text:focus  */{
   color:var(--accent-color);
 } 
 
@@ -325,8 +325,11 @@ padding-bottom: 94px;
 
 .contacts {
   background-color:  #2F303A;
-  
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
+
+
 
 .footer-logo-web {
   font-family: 'Raleway', sans-serif;
@@ -348,6 +351,10 @@ padding-bottom: 94px;
 
 /* ----------------------address-------------------- */
 
+a {
+  display: block;
+}
+
 .contacts-link {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
@@ -355,6 +362,12 @@ padding-bottom: 94px;
   letter-spacing: 0.03em;
   color: #FFFFFF;
   font-style: normal;
+  margin-top: 20px;
+  margin-bottom: 9px;
+}
+
+.contacts-mail {
+  margin-bottom: 9px;
 }
 
 .contacts-mail,
